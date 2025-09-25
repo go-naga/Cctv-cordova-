@@ -15,7 +15,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v4
       
-- name: Install Cordova & Android tools
+   - name: Install Cordova & Android tools
   run: |
     npm install -g cordova@11
     mkdir -p $HOME/android-sdk
