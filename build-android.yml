@@ -1,4 +1,4 @@
-name: Build Cordova Android
+name:  Build Cordova Android
 
 on:
   push:
